@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="fileexec:war">
+    <output-path>$PROJECT_DIR$/fileexec/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>fileexec</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="fileexec-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="fileexec:war exploded" />
+    </root>
+  </artifact>
+</component>
